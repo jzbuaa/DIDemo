@@ -1,0 +1,23 @@
+﻿{
+  "components": [
+    {
+      "type": "AriaLogger.AriaLogger, AriaLogger",
+      "services": [
+        {
+          "type": "Core.ILogger, Core"
+        }
+      ],
+      "parameters": {
+        "tableName": "Lol"
+      }
+    },
+    {
+      "type": "LoggerFramework.AppConfigReader, LoggerFramework",
+      "services": [
+        {
+          "type": "Core.IConfigReader, Core"
+        }
+      ]
+    }
+  ]
+}
